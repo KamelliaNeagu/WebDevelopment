@@ -1,0 +1,116 @@
+/* CSS Reset */
+* {  
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/*  main styling*/
+ body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      line-height: 1,5em;
+}
+a {
+   color: #222831;
+   text-decoration: none;
+}
+h1,h2,h3 {
+   padding: 20px 20px;
+}
+h2 {
+   font-size: medium;
+   text-align: center;
+}
+/* utility class */
+.container {
+   width: 1000px;
+   margin: auto;
+}
+.text-primary {
+   color: red;
+}
+.btn {
+   display: inline-block;
+   font-size:18px;
+   color:white;
+   background-color: #212121;
+   padding: 13px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.btn:hover {
+   background-color: #4e8d7c;
+}
+.box {
+   border: 1px solid gray;
+   background-color: #99ccff;
+   padding: 20px;
+   margin-bottom: 10px;
+}
+/* navbar */
+#navbar {
+   background-color: #045762;
+   color: #fcf8ec;
+   overflow: hidden;
+}
+#navbar a {
+   color: #fcf8ec;
+}
+#navbar ul {
+   list-style: none;
+   float: right;
+   font-size: 20px;
+}
+#navbar ul li {
+   float: left;
+}
+#navbar ul li a {
+   display: block;
+   padding: 20px;
+}
+#navbar ul li a:hover {
+   background-color: #045762;
+   color: black;
+}
+#navbar .current {
+   background-color: #d0e8f2;
+   color: black;
+}
+/* maintext */
+#maintext {
+   background: url("../Frontend.jpg") no-repeat center center/cover;
+   height: 750px;
+}
+#maintext #maintext-content {
+   padding-top: 300px;
+   text-align: left;
+   margin-left: 100px;
+}
+/* contact form */
+input[type=text], textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+} 
+textarea {
+   height: 200px;
+}
+/* font awsome */
+.fab { 
+   color:#0e49b5;
+   font-size: 20px;
+   padding-top: 20px 20px;
+   margin-left: 180px;
+}
+.fa-github-square {
+   color: black;
+}
+/* Footer */
+footer {
+   padding: 20px 20px;
+   background-color: #d0e8f2;
+} 
