@@ -1,0 +1,97 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* main styling */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5em;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+p {
+    margin: 0 10px;
+
+}
+/* utility class */
+.container {
+    width: 700px;
+    margin: auto;
+}
+.text-primary {
+    color: #03506f;
+}
+.btn {
+    background-color: #333;
+    border-radius: 7px;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 15px;
+    display: inline-block;
+
+}
+.btn:hover {
+    background-color: #03506f;
+}
+/* navbar */
+#navbar {
+    background-color: #03506f;
+    color: white;
+    overflow: hidden;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar a {
+    color: white;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+#navbar ul li a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+#navbar .current {
+    background-color: aliceblue;
+    color: black;
+}
+/* showcase */
+#showcase {
+    background: url("../images/showcase.jpg") no-repeat center center/cover;
+    height: 600px;
+}
+#showcase #showcase-content {
+    padding-top: 200px;
+}
+#showcase #showcase-content h2 {
+    font-size: 55px;
+    line-height: 1.3em;
+}
+#showcase-content .intro {
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+#showcase-content .btn {
+    margin-left: 250px;
+}
