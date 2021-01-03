@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Contact form</title>
+</head>
+<body>
+<header>
+    <nav id="navbar">
+        <ul>
+            <li><a href ="Index.html">Home</a></li> 
+            <li><a href ="Aboutme.html">About me</a></li>
+            <li><a href="MyWork.html">My work</a></li>
+            <li><a class="current" href="Contact_form.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <div class="container1">
+        <h3>Contact me</h3>
+        <form action="mailito:neagu.kamellia@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" name="name">
+            <label for="email">Email</label>
+            <input type="text" name="email">
+            <label for="subject">Subject</label>
+            <input type="text" name="subject">
+            <label for="msg">Message</label>
+            <textarea name="msg" name="msg"></textarea>
+            <button class="btn" type="submit">Send message</button> 
+        </form>
+    </div>
+    <div class="container2">
+        <h2>Or find me on social media</h2>
+        <i class="fab fa-facebook"><a href="https://www.facebook.com/kamellia.neagu">Facebook</a></i>
+        <i class="fab fa-linkedin"><a href="https://www.linkedin.com/in/kamellia-neagu-75346b27">Linkedin</a></i>
+        <i class="fab fa-github-square"><a href="https://github.com/KamelliaNeagu">GitHub</a></i> 
+    </div>  
+</section>
+<footer>
+    <p>&copy; 2020</p>
+</footer> 
+</body>
+</html>
+

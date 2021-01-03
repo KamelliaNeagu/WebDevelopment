@@ -1,0 +1,179 @@
+/* CSS Reset */
+* {  
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/*  main styling*/
+body {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      line-height: 1,5em;
+}
+a {
+   color: #222831;
+   text-decoration: none;
+}
+h1 {
+   padding-top: 100px;
+   padding-bottom: 50px;
+   padding-left: 50px;
+} 
+h2 {
+   font-size: medium;
+   text-align: center;
+   padding-top: 80px;
+}
+h3 {
+   padding-top: 50px;
+   padding-left: 50px;
+}
+h4 {
+   text-align: center;
+}
+/* utility class */
+.flex {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: stretch;
+   align-content: center;
+}
+.container {
+   width: 100%;
+   height: 375px;
+   margin: auto;
+}
+.container1 {
+   height: 500px;
+}
+.container2 {
+   height: 250px;
+}
+.container-fab {
+   height: 200px;
+}
+.box {
+   width: 100%;
+   height: 100%;
+} 
+#box1 {
+   background: url("../Pictures/Digital.jpg") no-repeat center center/cover;
+   width: 100%;
+}
+#box2 {
+   background: url("../Pictures/Computer.jpg") no-repeat center center/cover;
+   width: 50%;
+}
+#box3 {
+   background-color: #79a3b1;
+   width: 33,33%;
+}
+#box4 {
+   background-color: #d0e8f2;
+   width: 33,33%;
+}
+#box5 {
+   background-color: #456268;
+   width: 33,33%;
+}
+#box6 {
+   background-color: #cfd3ce;
+}
+#box7 {
+   background-color: #839b97;
+}
+#box8 {
+   background-color: #34626c;
+}
+#box9 {
+   background-color: #c6b497;
+}
+.text-primary {
+   background-color: red;
+}
+.about-section {
+   background: url("../Pictures/Frontend.jpg") no-repeat center center/cover;
+   height: 750px;
+}
+/* navbar */
+#navbar {
+   background-color: #045762;
+   color: #fcf8ec;
+   overflow: hidden;
+}
+#navbar a {
+   color: #fcf8ec;
+}
+#navbar ul {
+   list-style: none;
+   float: right;
+   font-size: 20px;
+}
+#navbar ul li {
+   float: left;
+}
+#navbar ul li a {
+   display: block;
+   padding: 20px;
+}
+#navbar ul li a:hover {
+   background-color: #045762;
+   color: black;
+}
+#navbar .current {
+   background-color: #d0e8f2;
+   color: black;
+}
+/* contact form */
+input[type=text], textarea {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+} 
+textarea {
+   height: 150px;
+}
+form {
+   padding: 20px;
+}
+.btn {
+   display: inline-block;
+   font-size:18px;
+   color:white;
+   background-color: #212121;
+   padding: 13px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.btn:hover {
+   background-color: #4e8d7c;
+}
+/* font awsome */
+.fab { 
+   color:#0e49b5;
+   font-size: 25px;
+   padding: 70px 25px;
+   margin-left: 190px;
+}
+.fa-github-square {
+   color: black;
+}
+.awesome {
+   color: black;
+   font-size: 25px;
+}
+.fas {
+   padding-left: 50%;
+   padding-top: 70px;
+   padding-bottom: 40px;
+}
+/* Footer */
+footer {
+   padding: 20px 20px;
+   background-color: #d0e8f2;
+} 
