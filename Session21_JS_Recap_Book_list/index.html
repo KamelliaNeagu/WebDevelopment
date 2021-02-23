@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="book">
+            <form action="" class="form" id="form">
+                <h2>Add Book</h2>
+                <div id="first-input" class="form-item">
+                    <label for="book-title">Title</label><br>
+                    <input id="book-title" placeholder="Book title" type="text">
+                </div>
+                <div class="form-item">
+                    <label for="book-author">Author</label><br>
+                    <input id="book-author" placeholder="Book author" type="text">
+                </div>
+                <div class="form-item">
+                    <label for="book-isbn">ISBN#</label><br>
+                    <input id="book-isbn" placeholder="ISBN" type="number">
+                </div>
+                <button type="submit" id="submitBtn">Submit</button>
+            </form>
+            <table id="book-table">
+                <thead id="table-head">
+                    <tr>
+                        <th>
+                            Title
+                        </th>
+                        <th>
+                            Author
+                        </th>
+                        <th>
+                            ISBN
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="table-body"> 
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
