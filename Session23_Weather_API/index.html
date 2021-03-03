@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather API</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div id="city-input">
+				<input id="city" type="text" value="" />
+				<button class= "button" id="vremeaBtn">Afiseaza vremea</button>
+				<button class= "button" id="prognozaBtn">Afiseaza prognoza</button>
+			</div>
+			<div id="viewWeather">
+				<h2><i>Vremea acum</i></h2>
+				<hr>
+			</div>
+			<div id="vremeaDiv"></div>
+			<div id="viewForecast">
+				<h2><i>Vremea in urmatoarele zile</i></h2>
+				<hr>
+			</div>
+			<div id="prognozaDiv"></div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>

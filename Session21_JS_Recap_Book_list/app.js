@@ -28,7 +28,7 @@ class UI {
 	}
 
     showError(elem) {
-        elem.parentElement.classList.remove('succes');
+        elem.parentElement.classList.remove('success');
 		elem.parentElement.classList.add('error');
 	}
 
